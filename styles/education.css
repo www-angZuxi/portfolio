@@ -33,25 +33,23 @@
     border-radius: 2vw;
     transition: 1s ease;
     margin: 10vw 1vw 0vw;
-    color: transparent;
-    opacity: 0;
     font-size: 2vw;
+    color: black;
 }
 
 
-#card1{
+#card1:hover{
     background-image: url(/resources/sp.jpeg);
 }
-#card2{
+#card2:hover{
     background-image: url(/resources/sprc.jpeg);
 }
-#card3{
+#card3:hover{
     background-image: url(/resources/sp.jpeg);
 }
 
 
 #card1:hover, #card2:hover, #card3:hover{
-    transform: rotateY(180deg);
-    color: black;
-    background-image: none;
+    transform: rotateY(360deg);
+    color: aliceblue;
 }
