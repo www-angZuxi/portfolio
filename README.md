@@ -3,4 +3,4 @@ Wang Zuxi's Portfolio
 
 ## Setup 
 
-npm i bootstrap
+npm i bootstrap 

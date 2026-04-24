@@ -1,0 +1,57 @@
+#education > h2{
+    font-size: 2vw;
+    margin: 5vw 5vw;
+    transition: 1.5s;
+    opacity: 0;
+}
+
+#education > h2{
+    font-size: 2vw;
+    margin: 5vw 5vw;
+    transition: 1.5s;
+    opacity: 0;
+}
+
+#education > h3{
+    font-size: 2vw;
+    margin: 0vw 5vw;
+}
+
+#education > p{
+    font-size: 1vw;
+    margin: 0vw 5vw;
+    font-style: italic;
+}
+#education > div{
+    padding: 0 5vw;
+}
+.cards{
+    height: 35vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1vw solid #8930e9;
+    border-radius: 2vw;
+    transition: 1s ease;
+    margin: 10vw 1vw 0vw;
+    color: transparent;
+    opacity: 0;
+    font-size: 2vw;
+}
+
+
+#card1{
+    background-image: url(/resources/sp.jpeg);
+}
+#card2{
+    background-image: url(/resources/sprc.jpeg);
+}
+#card3{
+    background-image: url(/resources/sp.jpeg);
+}
+
+
+#card1:hover, #card2:hover, #card3:hover{
+    transform: rotateY(180deg);
+    color: black;
+    background-image: none;
+}
