@@ -8,8 +8,17 @@ body{
     width: 100vw;
 }
 
-h1{
+.title{
     font-size: 4.5vw;
     margin: 2vw -10vw 3vw;
     transition: 0.7s;
+    transition-delay: 0.3s;
+    opacity: 0;
+}
+.sub-title{
+    font-size: 2vw;
+    margin: 5vw 5vw;
+    transition: 1.5s;
+    transition-delay: 0.5s;
+    opacity: 0;
 }
