@@ -16,7 +16,9 @@ body{
     opacity: 0;
 }
 .sub-title{
-    font-size: 2vw;
+    font-size: 1.5vw;
+    font-style: italic;
+    color: grey;
     margin: 5vw 5vw;
     transition: 1.5s;
     transition-delay: 0.5s;

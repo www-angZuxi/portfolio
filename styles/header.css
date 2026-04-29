@@ -6,15 +6,16 @@
     margin: 0 1vw;
     color: black;
     transition: 0.7s;
-    border-bottom: solid 0.5vw #8ee7c2;
+    border: solid 0.5vw #8ee7c200;
+    border-radius: 3vw;
 }
 
 .baseNav > li > a:hover, .nav-link:hover{
     font-size: 1.8vw;
     margin: 0 0.7vw;    
     color: #8ec3e7;
-    border-bottom: solid 0.7vw #8ee7c2;
-    border-right: solid 0.5vw #8ee7c2;
+    border-bottom: solid 0.5vw #8ee7c2;
+    border-radius: 0;
 }
 
 #navbar{
@@ -31,6 +32,8 @@
     font-size: 2vw;
     margin: 0 1vw;
     transition: 0.7s;
+    border: solid 0.5vw #8ee7c200;
+    border-radius: 3vw;
 }
 
 
