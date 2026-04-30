@@ -24,3 +24,81 @@ body{
     transition-delay: 0.5s;
     opacity: 0;
 }
+.baseNav{
+    margin-top: 2vw;
+}
+.baseNav > li > a{
+    font-size: 2vw;
+    margin: 0 1vw;
+    color: black;
+    transition: 0.7s;
+    border: solid 0.5vw #8ee7c200;
+    border-radius: 3vw;
+}
+
+.baseNav > li > a:hover, .nav-link:hover{
+    font-size: 1.8vw;
+    margin: 0 0.7vw;    
+    color: #8ec3e7;
+    border-bottom: solid 0.5vw #8ee7c2;
+    border-radius: 0;
+}
+
+#navbar{
+    background: #8930e9fb;
+    z-index: 2;
+    height: 6vw;
+    width: 100vw;
+    position: fixed;
+    margin-top: -4vw;
+    transition: 0.7s;
+}
+.nav-link{
+    color: aliceblue;
+    font-size: 2vw;
+    margin: 0 1vw;
+    transition: 0.7s;
+    border: solid 0.5vw #8ee7c200;
+    border-radius: 3vw;
+}
+
+
+.nav-headers > li{
+    font-size: 1vw;
+}
+
+.navbar-text ul li{
+    margin: 0 0.3vw;
+}
+
+#nav-git{
+    width: 1.5vw;
+    background: white;
+    border-radius: 0.3vw;
+}
+#nav-linkedin{    
+    width: 1.5vw;
+    height: 1.5vw;
+    background: #0073B2;
+    color: white;
+    font-size: 1vw;
+    padding: 0.1vw 0.4vw 0.2vw;
+    border-radius: 0.3vw;
+    text-decoration: none;
+}
+
+#zuxi{
+    height: 38vw;
+}
+
+#about{
+    background: #08011b;
+    color: aliceblue;
+    border-radius: 5vw 0 0 0;
+    padding: 2vw;
+    font-size: 1.5vw;
+}
+#about > h2{
+    font-size: 5vw;
+    margin: 3vw 20vw;
+}
