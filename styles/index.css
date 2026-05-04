@@ -97,5 +97,26 @@ body{
 }
 #about > h2{
     font-size: 5vw;
-    margin: 3vw 20vw;
+}
+#about > img{
+    width: 25vw;
+    border: 1vw solid;
+    margin-bottom: 5vw;
+    border-radius: 20vw;
+}
+#about > a{
+    text-decoration: none;
+    border: 0.3vw solid aliceblue;
+    border-radius: 2vw;
+    padding: 2vw;
+    width: 22vw;
+    margin: 4vw auto;
+    display: block;
+    color: aliceblue;
+    transition: 0.7s;
+    font-size: 2vw;
+}
+#about > a:hover{
+    background: #8930e9fb;
+    width: 30vw;
 }
