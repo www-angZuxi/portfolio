@@ -44,6 +44,10 @@ body{
     border-radius: 0;
 }
 
+.navbar-brand>img{
+    width: 3vw;
+}
+
 #navbar{
     background: #8930e9fb;
     z-index: 2;
@@ -67,24 +71,17 @@ body{
     font-size: 1vw;
 }
 
-.navbar-text ul li{
+.navbar-text > ul > li{
     margin: 0 0.3vw;
 }
 
-#nav-git{
-    width: 1.5vw;
-    background: white;
-    border-radius: 0.3vw;
+.nav-end{
+    margin: 0 2vw;
 }
-#nav-linkedin{    
-    width: 1.5vw;
-    height: 1.5vw;
-    background: #0073B2;
-    color: white;
-    font-size: 1vw;
-    padding: 0.1vw 0.4vw 0.2vw;
+.nav-end > ul > li > a > img{
+    width: 2vw;
     border-radius: 0.3vw;
-    text-decoration: none;
+    margin: 0 0.5vw;
 }
 
 #zuxi{
